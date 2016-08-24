@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	background:rgba(200,200,200,0.8);
+}
+.container {
+	width:960px;
+	height:450px;
+}
+.pict {
+   width:240px;
+}
+.container img{
+	position:absolute;
+	-webkit-transition:all 0.5s ease-in;
+	   -moz-transition:all 0.5s ease-in;
+	    -ms-transition:all 0.5s ease-in;
+	     -o-transition:all 0.5s ease-in;
+     padding:10px 10px 15px 10px;
+     background:white;
+     border:1px solid #ddd;
+     box-shadow:2px 2px  3px rgba(50,50,50,0.4);
+     z-index:1;
+}
+.container img:hover{
+     box-shadow:15px 15px  20px rgba(50,50,50,0.4);
+     z-index:5;
+     transform:rotate(0deg) scale(1.20);
+     -webkit-transform:rotate(0deg) scale(1.2);
+}
+
+.pic1 {
+    left:400px;
+    top:0px;
+    transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+}
+.pic2 {
+    left:300px;
+    top:40px;
+    transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+}
+.pic3 {
+    bottom:240px;
+    right:70px;
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+}
+.pic4 {
+    bottom:220px;
+    left:300px;
+    transform:rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+.pic5 {
+    bottom:230px;
+    left:0px;
+    transform:rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+.pic6 {
+    left:850px;
+    bottom:100px;
+    transform:rotate(10deg);
+    -webkit-transform:rotate(10deg);
+}
+.pic7 {
+    left:550px;
+    top:340px;
+    transform:rotate(20deg);
+    -webkit-transform:rotate(20deg);
+}
+.pic8 {
+    left:650px;
+    bottom:450px;
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+}
+.pic9 {
+    left:950px;
+    top:90px;
+    transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+}
